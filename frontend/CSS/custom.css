@@ -1,0 +1,2886 @@
+html {
+  scroll-behavior: smooth;
+}
+/********** Navbar Section Styles Start **********/
+
+#navbar-section .navbar-brand img {
+    height: 55px; 
+}
+
+#navbar-section .navbar-nav .nav-link {
+    color: rgb(199, 199, 199) !important;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+#navbar-section .navbar-nav .nav-link:hover {
+    color: #ffffff !important; 
+}
+
+
+#navbar-section .models-link {
+    color: rgb(199, 199, 199);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 20px;
+    margin-right: 30px; 
+}
+
+#navbar-section .models-link i {
+    transition: transform 0.3s;
+}
+
+#navbar-section .models-link:hover i {
+    transform: translateX(5px); 
+}
+#navbar-section .models-link:hover {
+     color:#ffffff
+}
+/********** Navbar Section Styles Ende **********/
+
+
+/********** Line start **********/
+.Line{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.line{
+  display: block;
+  background-color:#181818 ;
+  width: 2px;
+  height: 15em;
+  
+}
+/********** Line Ende **********/
+
+
+
+
+
+/********** Carousel SectionV Styles **********/
+
+#carousel-section .carousel-item {
+    position: relative;
+    min-height: 450px;
+}
+
+
+#carousel-section .carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+#carousel-section .carousel-control-prev,
+#carousel-section .carousel-control-next {
+    width: 10%;
+}
+
+#carousel-section .carousel-control-prev-icon,
+#carousel-section .carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+#carousel-section .carousel-caption h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    #carousel-section .carousel-item {
+        position: relative;
+        min-height: 450px;
+    }
+}
+
+/**********************************************/
+
+
+
+/********** Carousel SectionM Styles **********/
+
+#carouselm-section .carousel-item {
+    position: relative;
+    min-height: 450px;
+}
+
+#carouselm-section .carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+#carouselm-section .carousel-control-prev,
+#carouselm-section .carousel-control-next {
+    width: 10%;
+}
+
+#carouselm-section .carousel-control-prev-icon,
+#carouselm-section .carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+#carouselm-section .carousel-caption h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    #carouselm-section .carousel-item {
+        position: relative;
+        min-height: 450px;
+    }
+}
+
+/*******************Same Picture Size*******************/
+#carouselm-section .carousel-item img {
+    height: 100vh; 
+    object-fit: cover;
+}
+
+#carouselm-section .carousel-item {
+    height: 100vh; 
+}
+
+#carouselm-section .carousel-item img {
+    display: block;
+     
+}
+
+#carouselm-section .carousel-item .col-lg-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+#carouselm-section .carousel-item .col-lg-5 img {
+    max-width: 700px; 
+    object-fit: contain; 
+    margin-right: 300px;
+    
+}
+
+
+/********** Carousel Image-Home-Styles Start **********/
+
+
+#carousel-image-home {
+    margin-top: 5px;
+}
+
+#carousel-image-home .carousel-item {
+    position: relative;
+    min-height: 450px;
+    height: 50vh; 
+}
+
+#carousel-image-home .carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+#carousel-image-home .carousel-control-prev,
+#carousel-image-home .carousel-control-next {
+    width: 10%;
+}
+
+#carousel-image-home .carousel-control-prev-icon,
+#carousel-image-home .carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+#carousel-image-home .carousel-caption h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    #carousel-image-home .carousel-item {
+        min-height: 400px; 
+        height: 400px;
+    }
+}
+
+/******************* Same Picture Size *******************/
+#carousel-image-home .carousel-item img {
+    height: 50vh; 
+    object-fit: cover;
+    display: block;
+}
+
+#carousel-image-home .carousel-item .col-lg-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#carousel-image-home .carousel-item .col-lg-5 img {
+    max-width: 700px;
+    object-fit: contain; 
+    margin-right: 300px; 
+}
+
+/********** Carousel Image-Home-Styles End **********/
+
+
+
+
+/*******************    MastHead   *******************/
+
+
+#masthead2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('https://images4.alphacoders.com/130/1308564.jpeg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+#masthead2 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#masthead2 .container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#masthead2 h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+#masthead2 h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+#masthead2 .btn-primary {
+    font-size: 1.25rem;
+    padding: 1rem 2rem ;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+
+#about-home {
+    padding: 5rem 0;
+    background-color: #5B4F46;
+    color: white;
+    text-align: center;
+}
+
+#about-home .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about-home h2 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+#about-home p {
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.75;
+    margin-bottom: 2rem;
+}
+
+#about-home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+/*******************    MastHead ende   *******************/
+
+/********** General Button Styles Start **********/
+
+.btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+/********** General Button Styles Ende **********/
+
+/****************** Customize Buttons for Navbar and Carousel ***************/
+#navbar-section .btn,
+#carousel-section .btn, #carouselm-section .btn, #carousel-image-home .btn {
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-color: transparent; 
+    border: 2px solid white; 
+    color: white; 
+}
+
+
+#navbar-section .btn:hover,
+#carousel-section .btn:hover, #carouselm-section .btn:hover, #carousel-image-home .btn:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-color: white; 
+    color: white; 
+}
+
+
+
+/****************************** Service ******************************/
+
+
+
+#service-section .fa {
+    color: #181818; 
+}
+
+
+#service-section .col-lg-4 .d-flex {
+    background-color:#ffffff ; 
+    padding: 20px;            
+}
+
+
+#service-section .col-lg-4 .ps-4 h5 {
+    font-size: 20px; 
+    font-weight: bold;
+    color: #181818; 
+  }
+
+#service-section .col-lg-4 .ps-4 p {
+    color: #181818; 
+    font-size: 15px; 
+    margin-bottom: 20px; 
+}
+
+
+#service-section .col-lg-4 .ps-4 a {
+    color: #181818;
+    text-decoration: none;
+    transition: border-color 0.3s ease;
+}
+
+#service-section .col-lg-4 .ps-4 a:hover {
+    color: #000000; 
+    
+}
+
+
+#service-section {
+    padding: 60px 0; 
+}
+
+
+
+/************* Fact  **************/
+
+
+#fact-section {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(http://lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/motorsport/experience/home/2024/hero/experience_hero_01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#ffffff
+}
+
+/************* Team **************/
+
+#team-section {
+    padding: 5rem 0;
+}
+
+
+#team-section .team-item {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+#team-section .team-item:hover {
+    transform: translateY(-10px);
+}
+
+
+#team-section .team-item .position-relative {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#team-section .team-item img {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+#team-section .team-item:hover img {
+    transform: scale(1.1);
+}
+
+
+#team-section .team-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#team-section .team-item:hover .team-overlay {
+    opacity: 1;
+}
+
+
+#team-section .btn-square {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    color: #333;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+#team-section .btn-square:hover {
+    background: #007bff;
+    color: #ffffff;
+}
+
+
+#team-section .bg-light {
+    background: #f8f9fa !important;
+    padding: 20px;
+    text-align: center;
+}
+
+#team-section h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    transition: color 0.3s ease-in-out;
+}
+
+#team-section small {
+    font-size: 14px;
+    color: #777;
+    transition: color 0.3s ease-in-out;
+}
+
+
+#team-section .team-item:hover h5 {
+    color: #007bff;
+}
+
+#team-section .team-item:hover small {
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------MODELS PAGE------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#car-listing-section {
+    position: relative;
+    margin-top: 40px;
+}
+
+
+#car-listing-section .car-wrap {
+    width: 100%;
+    max-width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 0px 5px 12px -1px rgba(0, 0, 0, 0.06);
+    background: #e2e1e1;
+}
+
+
+#car-listing-section .car-wrap .img {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#car-listing-section .car-wrap .text {
+    padding: 10px;
+}
+
+
+#car-listing-section .car-wrap .text h2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#car-listing-section .car-wrap .text h2 a {
+    color: black; 
+}
+
+#car-listing-section .car-wrap .text h2 a:hover {
+    color: #181818; 
+}
+
+
+/* Adjust price size */
+#car-listing-section .car-wrap .text .price {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#car-listing-section .car-wrap .text .price .price-value {
+    color: #0877cc; 
+}
+
+
+#car-listing-section .car-wrap .text .d-flex {
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+#car-listing-section .car-wrap .text .d-flex .cat {
+    margin-right: auto; 
+}
+
+#car-listing-section .car-wrap .text .d-flex .price {
+    margin-left: auto; 
+}
+
+
+/* Increase space between buttons */
+#car-listing-section .car-wrap .text p.d-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px; 
+}
+
+/* Adjust button width */
+#car-listing-section .car-wrap .text p.d-block a {
+    flex: 1; 
+    text-align: center;
+    padding: 6px 12px;
+}
+
+/* Buttons */
+#car-listing-section .btn-primary {
+    color: #fff;
+    background-color: #02428b;
+    border-color: #002241;
+}
+
+#car-listing-section .btn-primary:hover {
+    background-color: #035696;
+}
+
+#car-listing-section .btn-secondary {
+    color: #fff;
+    background-color: #01D28E;
+    border-color: #01D28E;
+}
+
+#car-listing-section .btn-secondary:hover {
+    background-color: #00ffaa;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #car-listing-section .car-wrap {
+        max-width: 200px;
+    }
+
+    #car-listing-section .car-wrap .img {
+        height: 120px;
+    }
+
+    #car-listing-section .car-wrap .text {
+        padding: 8px;
+    }
+
+    /* Stack buttons vertically on small screens */
+    #car-listing-section .car-wrap .text p.d-block {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #car-listing-section .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------ALL MODELS CSS---------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*** Features Start ***/
+.feature {
+    background: #f0f0f0;
+}
+.feature h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #181818;
+    text-decoration: underline;
+}
+
+.feature .feature-item {
+    display: flex;
+    border-radius: 10px;
+}
+
+.feature .feature-item .feature-icon span {
+    width: 90px; 
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f0f0f0;
+    background: #181818;
+    border-radius: 67% 33% 29% 71% / 39% 46% 54% 61%;;
+    animation-name: icon-animat;
+    
+}
+
+/*** Features End ***/
+
+
+/************** Styling for the features Extend Start ***************/
+#car-description {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+#car-description h2 {
+  text-align: center;
+  color: #333;
+}
+#car-description ul {
+  list-style: none;
+  padding: 0;
+}
+#car-description ul li {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+#car-description .has {
+  color: green;
+  font-weight: bold;
+}
+#car-description .has-not {
+  color: red;
+  font-weight: bold;
+}
+
+/************** Styling for the features Extend Ende  **************/
+
+
+/************** Banner Section Start **************/
+#banner-section {
+    background-color: #181818;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+
+#banner-section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+}
+
+
+#banner-section-text {
+    color: #ffffff;
+    text-align: center;
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+#banner-section-text h5 {
+    font-size: 20px;
+}
+
+#banner-section .btn {
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-color: transparent; 
+    border: 2px solid white; 
+    color: white;
+    margin-top: 30px;
+}
+
+#banner-section .btn:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-color: white; 
+    color: white; 
+}
+
+
+#banner-section-img {
+    flex: 1;
+    text-align: center;
+    min-width: 300px;
+}
+
+
+#banner-img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+#banner-section-img:hover #banner-img {
+    transform: scale(1.05);
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    #banner-section-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #banner-section-text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #banner-section-img {
+        width: 100%;
+    }
+
+    #banner-img {
+        width: 100%;
+    }
+}
+/************** Banner Section End **************/
+
+
+ /************** Gallery Start Revuelto**************/ 
+ #custom-gallery-section h1{
+    font-size: 4rem;
+    color: #181818;
+    font-weight: bold;
+    text-decoration: underline;
+}
+ #custom-gallery-section {
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    background: #F0F0F0;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+  }
+  
+  #custom-gallery-section .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    gap: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+ 
+  #custom-gallery-section .container > div {
+    flex: 0 0 120px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #19191a;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  #custom-gallery-section .container > div:nth-of-type(1) {
+    background: url("https://i.pinimg.com/originals/17/29/ff/1729ff538f658504f624e534da7fe270.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section .container > div:nth-of-type(2) {
+    background: url("https://www.topgear.com/sites/default/files/styles/media_embed/public/2023/03/TG%20LAMBO230309_0002.jpg?itok=sEaH0bdimg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section .container > div:nth-of-type(3) {
+    background: url("https://editorial.pxcrush.net/carsales/general/editorial/lamborghini-revuelto-giallo-interior-002.jpg?width=1024&height=682")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section .container > div:nth-of-type(4) {
+    background: url("https://scontent.fsjj1-1.fna.fbcdn.net/v/t39.30808-6/480924731_1039153924913785_3144975511753340404_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Kadl0yYFxO4Q7kNvgHBGLys&_nc_oc=AdnSp6fgTj9-6Fdfdp4hAWGVkrrxlvkr2O5fNeMYs5DPwl85IxPs6LvcmtQe4XTe7Cc&_nc_zt=23&_nc_ht=scontent.fsjj1-1.fna&_nc_gid=rflHloKS0K0OQN_LPDI_3A&oh=00_AYFy-FpnBMfVOfEIBLV-Zc91NTWqFFsSYbzQCmWzRWkefA&oe=67E63B52")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section .container > div:nth-of-type(5) {
+    background: url("https://mfiles.alphacoders.com/992/992391.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section .container > div:nth-of-type(6) {
+    background: url("https://mfiles.alphacoders.com/992/thumb-1920-992389.jpeg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section .container > div:nth-of-type(7) {
+    background: url("https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2023/03/lamborghini-revuelto-2024-1600-1b.jpg")
+      no-repeat 50% / cover;
+  }
+  
+  #custom-gallery-section .container .content {
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    opacity: 0;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    background: rgb(15, 15, 15);
+    background: linear-gradient(
+      0deg,
+      rgba(18, 18, 19, 0.676) 0%,
+      rgba(22, 22, 22, 0) 100%
+    );
+    transform: translateY(100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+    visibility: hidden;
+  }
+  
+  #custom-gallery-section .container .content span {
+    display: block;
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+  
+  #custom-gallery-section .container > div:hover {
+    flex: 0 0 250px;
+    box-shadow: 1px 3px 15px #19191a;
+    transform: translateY(-30px);
+  }
+  
+  #custom-gallery-section .container > div:hover .content {
+    opacity: 1;
+    transform: translateY(0%);
+    visibility: visible;
+  }
+  
+  /* RESPONSIVENESS */
+  
+ 
+  @media (max-width: 1024px) {
+    #custom-gallery-section .container {
+      flex-wrap: wrap;
+      height: auto;
+      justify-content: center;
+    }
+  
+    #custom-gallery-section .container > div {
+      flex: 1 1 45%; 
+      height: 200px;
+    }
+  
+    #custom-gallery-section .container > div:hover {
+      flex: 1 1 45%;
+      transform: none;
+    }
+  }
+  
+ 
+  @media (max-width: 768px) {
+    #custom-gallery-section .container {
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+      height: auto;
+    }
+  
+    #custom-gallery-section .container > div {
+      flex: 1 1 100%;
+      height: 150px;
+    }
+  
+    #custom-gallery-section .container > div:hover {
+      flex: 1 1 100%;
+      transform: none;
+    }
+  
+    #custom-gallery-section .container .content {
+      opacity: 1;
+      transform: translateY(0%);
+      visibility: visible;
+    }
+  }
+/************** Gallery Ende Revuelto**************/ 
+
+/************** Gallery Start Temerario**************/ 
+#custom-gallery-section-t h1{
+    font-size: 4rem;
+    color: #181818;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#custom-gallery-section-t {
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    background: #F0F0F0;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+  }
+  
+  #custom-gallery-section-t .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    gap: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Default layout: horizontal row */
+  #custom-gallery-section-t .container > div {
+    flex: 0 0 120px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #19191a;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  #custom-gallery-section-t .container > div:nth-of-type(1) {
+    background: url("https://scontent.fsjj1-1.fna.fbcdn.net/v/t39.30808-6/456064049_901520245343821_6467215976328163029_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LQc1OGf9ULIQ7kNvgFG8Skf&_nc_oc=AdmoZdWGzrlIezB4MiIYsdk_ve71v5t7NYy_1JWdmm5KVEzV7PEsHqumKcR8VkjOH-s&_nc_zt=23&_nc_ht=scontent.fsjj1-1.fna&_nc_gid=4NxOmOsZRmE2ucExeQqb_g&oh=00_AYH3HRjW9YBsbmR6FNIPDTdXGOcZvZFShRrtLrXiTGGK4g&oe=67E10C05")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-t .container > div:nth-of-type(2) {
+    background: url("https://scontent.fsjj1-1.fna.fbcdn.net/v/t39.30808-6/456143405_902187695277076_2633904953550109484_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wkVfs0CxgYMQ7kNvgGPkhVB&_nc_oc=Admt6J3U601iTMELe9P8Wzxgq4xWs9M7ZVeO5rGgCXAFEkw3i9nDhlCqp-sTGo_jPuc&_nc_zt=23&_nc_ht=scontent.fsjj1-1.fna&_nc_gid=EYqeSazo70w_AS3rd8u4YQ&oh=00_AYH46b5evU47uQ5uPTPHD6emM5aN2l8mndErsVD_wORqag&oe=67E1088F")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-t .container > div:nth-of-type(3) {
+    background: url("https://scontent.fsjj1-1.fna.fbcdn.net/v/t39.30808-6/463338036_944517251044120_9166775099417856167_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pM4IkNsiVeEQ7kNvgHnRrfe&_nc_oc=AdkxJ07Ehba_bm-_oCT7Nyc1ADYdXs2pmL_DX6WbqrLbfEoSdWrs64kBsHturetVfp8&_nc_zt=23&_nc_ht=scontent.fsjj1-1.fna&_nc_gid=n4C3t9C-K3_itGFYUcOceA&oh=00_AYHx1arzFE-hpO20ptdPWKXIgn5Ut_Yvh9Dw0mKVijngjA&oe=67E0EAEF")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-t .container > div:nth-of-type(4) {
+    background: url("https://scontent.fsjj1-1.fna.fbcdn.net/v/t39.30808-6/462654244_939338758228636_244839977899932127_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=lDnVQcWsAWUQ7kNvgHEaG2V&_nc_oc=AdkXCQzORtfcNjb5TpKebkC02hSnOO0GotuQR-vuL9f16wziTeMLjWkmzO4mbeN5PVo&_nc_zt=23&_nc_ht=scontent.fsjj1-1.fna&_nc_gid=a1RzU_NZZDBTlTmKPrGPpQ&oh=00_AYGT4kboL5edtjPj7_J38hsfsAEabW7xiyhs2AfZFPCZRw&oe=67E1162F")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-t .container > div:nth-of-type(5) {
+    background: url("https://scontent.fsjj1-1.fna.fbcdn.net/v/t39.30808-6/457321522_908062041356308_5946286023068614095_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Tyjyqo6vxPcQ7kNvgFEq7DW&_nc_oc=AdkxalAgMtPoXA817RHbHE2kQ4ca0QfYbmPybbh3Xg0Atap-nS7cvlBP9hT9bthEs1U&_nc_zt=23&_nc_ht=scontent.fsjj1-1.fna&_nc_gid=f3TkdpOOdsGl_f1sWg_cXQ&oh=00_AYEfGEu9BNZj2Y21j0jICTDt-pInl10BJzxlrP2PD8bFZA&oe=67E0E6BB")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-t .container > div:nth-of-type(6) {
+    background: url("https://scontent.fsjj1-1.fna.fbcdn.net/v/t39.30808-6/460216962_922055763290269_6466348675787957366_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=WesIrEWkQAUQ7kNvgFSwokn&_nc_oc=AdmXblyCRMzwf1ClXy9B_ERP8TH0gdJkbTHc_QhHP4ucP6MogyOkKbtpvTbywGfsF4A&_nc_zt=23&_nc_ht=scontent.fsjj1-1.fna&_nc_gid=0218pSTWp4wN6xRXGKXo7Q&oh=00_AYGAWW6uyjl-yJ3Hh9G5QnPb9aW-5Jtr40NqZJzlmRF7ww&oe=67E0FB0F")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-t .container > div:nth-of-type(7) {
+    background: url("https://scontent.fsjj1-1.fna.fbcdn.net/v/t39.30808-6/461338537_928419162653929_8674422393753260449_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=WcQxarvzuLgQ7kNvgFx02iA&_nc_oc=AdlU-p6eZeY_dsaJo0X1_yEDQIaqaK0fJjGi3e4lKWKUC7es9_I-Sv3rOaQ-NvEWjNw&_nc_zt=23&_nc_ht=scontent.fsjj1-1.fna&_nc_gid=WN4J-ZEYb2tX1nmc-Fx1EQ&oh=00_AYGxWWAx5-aU6vcj3jzhJYiTCGTRLfgORERkEgoiyh0ZfA&oe=67E10C43")
+      no-repeat 50% / cover;
+  }
+  
+  #custom-gallery-section-t .container .content {
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    opacity: 0;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    background: rgb(15, 15, 15);
+    background: linear-gradient(
+      0deg,
+      rgba(18, 18, 19, 0.676) 0%,
+      rgba(22, 22, 22, 0) 100%
+    );
+    transform: translateY(100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+    visibility: hidden;
+  }
+  
+  #custom-gallery-section-t .container .content span {
+    display: block;
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+  
+  #custom-gallery-section-t .container > div:hover {
+    flex: 0 0 250px;
+    box-shadow: 1px 3px 15px #19191a;
+    transform: translateY(-30px);
+  }
+  
+  #custom-gallery-section-t .container > div:hover .content {
+    opacity: 1;
+    transform: translateY(0%);
+    visibility: visible;
+  }
+  
+  /* RESPONSIVENESS */
+
+  @media (max-width: 1024px) {
+    #custom-gallery-section-t .container {
+      flex-wrap: wrap;
+      height: auto;
+      justify-content: center;
+    }
+  
+    #custom-gallery-section-t .container > div {
+      flex: 1 1 45%; /* Two items per row */
+      height: 200px;
+    }
+  
+    #custom-gallery-section-t .container > div:hover {
+      flex: 1 1 45%;
+      transform: none;
+    }
+  }
+  
+ 
+  @media (max-width: 768px) {
+    #custom-gallery-section-t .container {
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+      height: auto;
+    }
+  
+    #custom-gallery-section-t .container > div {
+      flex: 1 1 100%;
+      height: 150px;
+    }
+  
+    #custom-gallery-section-t .container > div:hover {
+      flex: 1 1 100%;
+      transform: none;
+    }
+  
+    #custom-gallery-section-t .container .content {
+      opacity: 1;
+      transform: translateY(0%);
+      visibility: visible;
+    }
+  }
+/************** Gallery Ende Temerario**************/ 
+
+ /************** Gallery Start STO**************/ 
+ #custom-gallery-section-s h1{
+    font-size: 4rem;
+    color: #181818;
+    font-weight: bold;
+    text-decoration: underline;
+}
+ #custom-gallery-section-s {
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    background: #F0F0F0;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+  }
+  
+  #custom-gallery-section-s .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    gap: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+ 
+  #custom-gallery-section-s .container > div {
+    flex: 0 0 120px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #19191a;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  #custom-gallery-section-s .container > div:nth-of-type(1) {
+    background: url("https://wallpapercave.com/wp/wp11347411.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-s .container > div:nth-of-type(2) {
+    background: url("https://i.pinimg.com/736x/3f/26/57/3f26576e5a804a7573de5457d495316b.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-s .container > div:nth-of-type(3) {
+    background: url("https://www.mad4wheels.com/img/free-car-images/mobile/19663/lamborghini-huracan-sto-by-novitec-2022-678314.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-s .container > div:nth-of-type(4) {
+    background: url("https://vorsteiner.com/cdn/shop/files/Lamborghini_Huracan_STO_Aero_Collection_Banner_Mobile_2160x800_fb9ca567-cb5d-4e1e-8b1a-a99816fc31c3_1600x.png?v=1711751951")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-s .container > div:nth-of-type(5) {
+    background: url("https://mvforged.com/wp-content/uploads/2024/06/2024-06-13-LamborghiniHuracanSTO-JaimeEchavez-3.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-s .container > div:nth-of-type(6) {
+    background: url("https://cdn-ds.com/media/sz_585216/1477/model_pages/huracan_sto/huracan_sto-interior-2.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-s .container > div:nth-of-type(7) {
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhI-0TVj4HqF0YKzNJWA2o6boZHugXCpEum539_OjJKQsTLTub_CgPWpKWJzFOuC8BI6OQTs6oTtiNTU_mcGddjnaUG0S1kuQYR68lUPdCHRG1iFR55VrQnavkmaWP7p9DqF0cJ8evMNbiZ/s0/2021-lamborghini-huracan-sto-ze-1440x2560.jpg")
+      no-repeat 50% / cover;
+  }
+  
+  #custom-gallery-section-s .container .content {
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    opacity: 0;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    background: rgb(15, 15, 15);
+    background: linear-gradient(
+      0deg,
+      rgba(18, 18, 19, 0.676) 0%,
+      rgba(22, 22, 22, 0) 100%
+    );
+    transform: translateY(100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+    visibility: hidden;
+  }
+  
+  #custom-gallery-section-s .container .content span {
+    display: block;
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+  
+  #custom-gallery-section-s .container > div:hover {
+    flex: 0 0 250px;
+    box-shadow: 1px 3px 15px #19191a;
+    transform: translateY(-30px);
+  }
+  
+  #custom-gallery-section-s .container > div:hover .content {
+    opacity: 1;
+    transform: translateY(0%);
+    visibility: visible;
+  }
+  
+  /* RESPONSIVENESS */
+  
+ 
+  @media (max-width: 1024px) {
+    #custom-gallery-section-s .container {
+      flex-wrap: wrap;
+      height: auto;
+      justify-content: center;
+    }
+  
+    #custom-gallery-section-s .container > div {
+      flex: 1 1 45%; 
+      height: 200px;
+    }
+  
+    #custom-gallery-section-s .container > div:hover {
+      flex: 1 1 45%;
+      transform: none;
+    }
+  }
+  
+ 
+  @media (max-width: 768px) {
+    #custom-gallery-section-s .container {
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+      height: auto;
+    }
+  
+    #custom-gallery-section-s .container > div {
+      flex: 1 1 100%;
+      height: 150px;
+    }
+  
+    #custom-gallery-section-s .container > div:hover {
+      flex: 1 1 100%;
+      transform: none;
+    }
+  
+    #custom-gallery-section-s .container .content {
+      opacity: 1;
+      transform: translateY(0%);
+      visibility: visible;
+    }
+  }
+/************** Gallery Ende STO**************/ 
+
+
+ /************** Gallery Start EVO**************/ 
+ #custom-gallery-section-e h1{
+    font-size: 4rem;
+    color: #181818;
+    font-weight: bold;
+    text-decoration: underline;
+}
+ #custom-gallery-section-e {
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    background: #F0F0F0;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+  }
+  
+  #custom-gallery-section-e .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    gap: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+ 
+  #custom-gallery-section-e .container > div {
+    flex: 0 0 120px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #19191a;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  #custom-gallery-section-e .container > div:nth-of-type(1) {
+    background: url("https://i.pinimg.com/736x/cd/8d/68/cd8d687221b6c735405f56479bcb810d.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-e .container > div:nth-of-type(2) {
+    background: url("https://www.topgear.com/sites/default/files/cars-car/carousel/2020/07/dsc09333.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-e .container > div:nth-of-type(3) {
+    background: url("https://static0.carbuzzimages.com/wordpress/wp-content/uploads/gallery-images/original/922000/900/922967.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-e .container > div:nth-of-type(4) {
+    background: url("https://w0.peakpx.com/wallpaper/71/334/HD-wallpaper-huracan-evo-supercar-luxury-vehicle-lamborghini-lambo.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-e .container > div:nth-of-type(5) {
+    background: url("https://w0.peakpx.com/wallpaper/647/403/HD-wallpaper-blue-huracan-car-evo-lamborghini-sports-spyder-super.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-e .container > div:nth-of-type(6) {
+    background: url("https://www.lux-mag.com/wp-content/uploads/2024/02/Lambo-Feature.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-e .container > div:nth-of-type(7) {
+    background: url("https://dealerimages.dealereprocess.com/image/upload/w_1000/2500990.jpg")
+      no-repeat 50% / cover;
+  }
+  
+  #custom-gallery-section-e .container .content {
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    opacity: 0;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    background: rgb(15, 15, 15);
+    background: linear-gradient(
+      0deg,
+      rgba(18, 18, 19, 0.676) 0%,
+      rgba(22, 22, 22, 0) 100%
+    );
+    transform: translateY(100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+    visibility: hidden;
+  }
+  
+  #custom-gallery-section-e .container .content span {
+    display: block;
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+  
+  #custom-gallery-section-e .container > div:hover {
+    flex: 0 0 250px;
+    box-shadow: 1px 3px 15px #19191a;
+    transform: translateY(-30px);
+  }
+  
+  #custom-gallery-section-e .container > div:hover .content {
+    opacity: 1;
+    transform: translateY(0%);
+    visibility: visible;
+  }
+  
+  /* RESPONSIVENESS */
+  
+ 
+  @media (max-width: 1024px) {
+    #custom-gallery-section-e .container {
+      flex-wrap: wrap;
+      height: auto;
+      justify-content: center;
+    }
+  
+    #custom-gallery-section-e .container > div {
+      flex: 1 1 45%; 
+      height: 200px;
+    }
+  
+    #custom-gallery-section-e .container > div:hover {
+      flex: 1 1 45%;
+      transform: none;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    #custom-gallery-section-e .container {
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+      height: auto;
+    }
+  
+    #custom-gallery-section-e .container > div {
+      flex: 1 1 100%;
+      height: 150px;
+    }
+  
+    #custom-gallery-section-e .container > div:hover {
+      flex: 1 1 100%;
+      transform: none;
+    }
+  
+    #custom-gallery-section-e .container .content {
+      opacity: 1;
+      transform: translateY(0%);
+      visibility: visible;
+    }
+  }
+/************** Gallery Ende EVO**************/ 
+
+/************** Gallery Start Urus**************/ 
+#custom-gallery-section-u h1{
+    font-size: 4rem;
+    color: #181818;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#custom-gallery-section-u {
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    background: #F0F0F0;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+  }
+  
+  #custom-gallery-section-u .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    gap: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+ 
+  #custom-gallery-section-u .container > div {
+    flex: 0 0 120px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #19191a;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  #custom-gallery-section-u .container > div:nth-of-type(1) {
+    background: url("https://scontent.fsjj1-1.fna.fbcdn.net/v/t39.30808-6/484279894_1057556923073485_3657755087824398144_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=rbpg26ZrZBMQ7kNvgHIiyIs&_nc_oc=AdkRcOjdKtOKRwCWmcJkzghPKWDJ1tZ7ywduUHnn-8llnvjDeXN66-i4xwOK_F1xPWo&_nc_zt=23&_nc_ht=scontent.fsjj1-1.fna&_nc_gid=hQRg11FfM02vaJpprAAwAw&oh=00_AYFZH66bvsUEFQ_DVkOAa-5wNN2sg_EVSzP5tA8QrRGSRA&oe=67E0FF37")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-u .container > div:nth-of-type(2) {
+    background: url("https://images.unsplash.com/photo-1627140290942-7c8f9f56e870?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFtYm9yZ2hpbmklMjB1cnVzfGVufDB8fDB8fHww")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-u .container > div:nth-of-type(3) {
+    background: url("https://car-images.bauersecure.com/wp-images/153762/urusp_044.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-u .container > div:nth-of-type(4) {
+    background: url("https://images.unsplash.com/photo-1549458395-e14f2e6d39c7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFtYm9yZ2hpbmklMjB1cnVzfGVufDB8fDB8fHww")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-u .container > div:nth-of-type(5) {
+    background: url("https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_gw/urus/2024/10_08_refresh/s3.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-u .container > div:nth-of-type(6) {
+    background: url("https://wallpapercat.com/w/full/3/7/6/1759069-1125x2436-mobile-hd-lamborghini-urus-background.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-u .container > div:nth-of-type(7) {
+    background: url("https://exoticcars.ae/uploads/cars/lamborghini-urus/image-16235557.jpg")
+      no-repeat 50% / cover;
+  }
+  
+  #custom-gallery-section-u .container .content {
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    opacity: 0;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    background: rgb(15, 15, 15);
+    background: linear-gradient(
+      0deg,
+      rgba(18, 18, 19, 0.676) 0%,
+      rgba(22, 22, 22, 0) 100%
+    );
+    transform: translateY(100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+    visibility: hidden;
+  }
+  
+  #custom-gallery-section-u .container .content span {
+    display: block;
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+  
+  #custom-gallery-section-u .container > div:hover {
+    flex: 0 0 250px;
+    box-shadow: 1px 3px 15px #19191a;
+    transform: translateY(-30px);
+  }
+  
+  #custom-gallery-section-u .container > div:hover .content {
+    opacity: 1;
+    transform: translateY(0%);
+    visibility: visible;
+  }
+  
+  /* RESPONSIVENESS */
+  
+  
+  @media (max-width: 1024px) {
+    #custom-gallery-section-u .container {
+      flex-wrap: wrap;
+      height: auto;
+      justify-content: center;
+    }
+  
+    #custom-gallery-section-u .container > div {
+      flex: 1 1 45%; /* Two items per row */
+      height: 200px;
+    }
+  
+    #custom-gallery-section-u .container > div:hover {
+      flex: 1 1 45%;
+      transform: none;
+    }
+  }
+  
+ 
+  @media (max-width: 768px) {
+    #custom-gallery-section-u .container {
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+      height: auto;
+    }
+  
+    #custom-gallery-section-u .container > div {
+      flex: 1 1 100%;
+      height: 150px;
+    }
+  
+    #custom-gallery-section-u .container > div:hover {
+      flex: 1 1 100%;
+      transform: none;
+    }
+  
+    #custom-gallery-section-u .container .content {
+      opacity: 1;
+      transform: translateY(0%);
+      visibility: visible;
+    }
+  }
+/************** Gallery Ende Urus**************/ 
+
+
+/************** Gallery Start Aventador**************/ 
+#custom-gallery-section-a h1{
+    font-size: 4rem;
+    color: #181818;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#custom-gallery-section-a {
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    background: #F0F0F0;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+  }
+  
+  #custom-gallery-section-a .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    gap: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Default layout: horizontal row */
+  #custom-gallery-section-a .container > div {
+    flex: 0 0 120px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #19191a;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  #custom-gallery-section-a .container > div:nth-of-type(1) {
+    background: url("https://wallpapercat.com/w/full/7/2/7/893090-2160x3840-mobile-4k-lamborghini-aventador-background-photo.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-a .container > div:nth-of-type(2) {
+    background: url("https://w0.peakpx.com/wallpaper/336/49/HD-wallpaper-2019-aventador-svj-lamborghini-aventador-svj-white-car-supercar-america-new-2019.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-a .container > div:nth-of-type(3) {
+    background: url("https://wallpapercat.com/w/full/a/8/6/893154-2160x3840-samsung-4k-lamborghini-aventador-background-image.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-a .container > div:nth-of-type(4) {
+    background: url("https://images.unsplash.com/photo-1617650728468-8581e439c864?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFtYm9yZ2hpbmklMjBhdmVudGFkb3IlMjBzdmp8ZW58MHx8MHx8fDA%3D")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-a .container > div:nth-of-type(5) {
+    background: url("https://i.pinimg.com/736x/9d/7d/00/9d7d00ba0cef6faf1c4935468cbff44d.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-a .container > div:nth-of-type(6) {
+    background: url("https://agluxurywheels.com/img/gallery/lamborghini-aventador-svj-agl43-monoblock-gloss-black-agluxury-wheels-08.jpg")
+      no-repeat 50% / cover;
+  }
+  #custom-gallery-section-a .container > div:nth-of-type(7) {
+    background: url("https://wallpapercave.com/wp/wp11958226.jpg")
+      no-repeat 50% / cover;
+  }
+  
+  #custom-gallery-section-a .container .content {
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    opacity: 0;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    background: rgb(15, 15, 15);
+    background: linear-gradient(
+      0deg,
+      rgba(18, 18, 19, 0.676) 0%,
+      rgba(22, 22, 22, 0) 100%
+    );
+    transform: translateY(100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+    visibility: hidden;
+  }
+  
+  #custom-gallery-section-a .container .content span {
+    display: block;
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+  
+  #custom-gallery-section-a .container > div:hover {
+    flex: 0 0 250px;
+    box-shadow: 1px 3px 15px #19191a;
+    transform: translateY(-30px);
+  }
+  
+  #custom-gallery-section-a .container > div:hover .content {
+    opacity: 1;
+    transform: translateY(0%);
+    visibility: visible;
+  }
+  
+  /* RESPONSIVENESS */
+  
+  
+  @media (max-width: 1024px) {
+    #custom-gallery-section-a .container {
+      flex-wrap: wrap;
+      height: auto;
+      justify-content: center;
+    }
+  
+    #custom-gallery-section-a .container > div {
+      flex: 1 1 45%; 
+      height: 200px;
+    }
+  
+    #custom-gallery-section-a .container > div:hover {
+      flex: 1 1 45%;
+      transform: none;
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    #custom-gallery-section-a .container {
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+      height: auto;
+    }
+  
+    #custom-gallery-section-a .container > div {
+      flex: 1 1 100%;
+      height: 150px;
+    }
+  
+    #custom-gallery-section-a .container > div:hover {
+      flex: 1 1 100%;
+      transform: none;
+    }
+  
+    #custom-gallery-section-a .container .content {
+      opacity: 1;
+      transform: translateY(0%);
+      visibility: visible;
+    }
+  }
+/************** Gallery Ende Aventador**************/ 
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------CONTACT US-------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #181818;
+    margin-top: 25px;
+}
+
+#t1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #181818;
+}
+
+#contact-section{
+  margin-bottom: 20px;
+}
+
+#contact-section .ftco-section {
+    position: relative;
+  }
+  
+  #contact-section .contact-info p {
+    font-weight: 600;
+    color: #000000;
+    margin-left: 15px;
+  }
+  
+  #contact-section .contact-info p a {
+    color: #181818;
+  }
+  
+  #contact-section .contact-info p span {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+  }
+  #contact-section .contact-info .border {
+    margin-bottom: 58px; 
+  }
+  
+  
+  #contact-section .contact-info .icon span {
+    font-size: 20px;
+    color: #181818;
+  }
+  
+  @media (min-width: 992px) {
+    #contact-section .contact-info .border-height {
+      border-left: 1px solid rgba(0, 0, 0, 0.1);
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  #contact-section .contact-form {
+    width: 100%;
+  }
+  
+  #contact-section .block-9 h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+  
+  #contact-section .block-9 .form-control {
+    font-size: 15px;
+  }
+
+  #contact-section .btn{
+    background: transparent;
+    border: 2px solid #181818;
+    color: #181818;
+  }
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------About US-------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+
+/* about section start */
+#about_section {
+    width: 100%;
+    padding: 90px 0px;
+    background-color: #181818;
+}
+
+#about_section .row {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#about_section .about_img {
+    width: 100%;
+    height: auto;
+}
+
+#about_section .about_img img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    max-width: 400px; 
+}
+
+#about_section .about_taital {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+
+#about_section .about_text {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 20px; 
+}
+
+#about_section .read_bt_1 {
+    margin-top: 20px;
+}
+
+
+
+/*-----------1---------------*/
+
+
+#about_section1 {
+    width: 100%;
+    padding: 90px 0px;
+    background-color: #ffffff;
+}
+
+#about_section1 .row {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+#about_section1 .about_img {
+    width: 100%;
+    height: auto;
+}
+
+#about_section1 .about_img img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    max-width: 400px; 
+}
+
+#about_section1 .about_taital {
+    font-size: 40px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+
+#about_section1 .about_text {
+    font-size: 16px;
+    color: #181818;
+    margin-bottom: 20px; 
+}
+
+#about_section1 .read_bt_1 {
+    margin-top: 20px;
+}
+
+
+/*-----------2------------*/
+
+#about_section2 {
+    width: 100%;
+    padding: 90px 0px;
+    background-color: #181818;
+}
+
+#about_section2 .row {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+#about_section2 .about_img {
+    width: 100%;
+    height: auto;
+}
+
+#about_section2 .about_img img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    max-width: 400px; 
+}
+
+#about_section2 .about_taital {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+
+#about_section2 .about_text {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 20px; 
+}
+
+#about_section2 .read_bt_1 {
+    margin-top: 20px;
+}
+
+
+/*-----------3------------*/
+
+#about_section3 {
+    width: 100%;
+    padding: 90px 0px;
+    background-color: #ffffff;
+}
+
+#about_section3 .row {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+#about_section3 .about_img {
+    width: 100%;
+    height: auto;
+}
+
+#about_section3 .about_img img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    max-width: 400px; 
+}
+
+#about_section3 .about_taital {
+    font-size: 40px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+
+#about_section3 .about_text {
+    font-size: 16px;
+    color: #181818;
+    margin-bottom: 20px; 
+}
+
+#about_section3 .read_bt_1 {
+    margin-top: 20px;
+}
+
+
+/* about section end */
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------Log in/Register-------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*************************** Register Start ********************************/
+#register-section .main-form {
+  background-image: url("https://images.alphacoders.com/130/1309142.jpeg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 125vh; 
+  width: 100%; 
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#register-section .form-container {
+  background-color: rgba(255, 255, 255, 0.6); 
+  padding: 20px; 
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 350px; 
+  box-sizing: border-box;
+}
+
+
+#register-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; 
+}
+
+
+#register-section form label {
+  font-weight: bold;
+  color: #000000;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#register-section form input[type="text"],
+#register-section form input[type="email"],
+#register-section form input[type="date"],
+#register-section form input[type="password"],
+#register-section form button[type="submit"] {
+  width: 100%; 
+  padding: 8px; 
+  margin: 5px 0 10px 0; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+#register-section form button[type="submit"] {
+  background-color: transparent;
+  color: #000000;
+  border: 2px solid #000000;
+  cursor: pointer;
+  padding: 12px 0; 
+}
+
+#register-section form button[type="submit"]:hover {
+  background-color: #2c2c2c;
+  color: #ffffff;
+  transform: translateY(-5px);
+  border: 2px solid #ffffff;
+}
+
+
+#register-section #passwordStrength {
+  font-size: 16px; 
+  font-weight: bold;
+  color: #000000;
+  margin-top: 5px; 
+}
+
+/* Error messages */
+#register-section .error {
+  color: red;
+  font-size: 12px;
+}
+/*************************** Register End ********************************/
+
+
+
+
+
+/***************************Sign In Start********************************/
+#login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://images.alphacoders.com/130/1309142.jpeg"); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+#login-section .login-container {
+  background-color: rgba(255, 255, 255, 0.6); 
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+#login-section h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+#login-section .input-field {
+  margin-bottom: 20px;
+}
+
+#login-section .input-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#login-section button {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  color: #181818;
+  border: 2px solid #181818;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  
+}
+
+#login-section button:hover {
+  background-color: #181818;
+  border: 2px solid #ffffff ;
+  color: #ffffff;
+}
+
+#login-section .signup-link {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+#login-section .signup-link a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+}
+
+#login-section .signup-link a:hover {
+  text-decoration: underline;
+}
+
+/***************************Sign In Ende********************************/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------Book Page-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*** Carousel Header Start ***/
+#customCarousel .carousel .carousel-item img {
+    object-fit: cover;
+}
+
+#customCarousel .carousel .carousel-item,
+#customCarousel .carousel .carousel-item img {
+    height: 700px;
+}
+
+#customCarousel .carousel-item .carousel-caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .6);
+    display: flex;
+    align-items: center;
+}
+
+.my-custom-bg {
+  background-color: #f0f0f0; 
+}
+
+/*** Carousel Header End ***/
+
+
+.review-h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #181818;
+  height: 150px;
+  text-decoration: underline;
+}
+
+
+
+/*** Reviews Start ***/
+#reviews-section {
+  font-family: Arial, sans-serif;
+  background-color: #e6e3e3;
+  margin: 0;
+  padding: 20px;
+}
+#reviews-container {
+  max-width: 600px;
+  margin: auto;
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.review {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+.review:last-child {
+  border-bottom: none;
+}
+.review h4 {
+  margin: 0 0 5px;
+}
+.review p {
+  margin: 5px 0;
+}
+#add-review-btn, #submit-review {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  background: transparent;
+  color: #181818;
+  border-radius: 5px;
+  border:2px solid #181818 ;
+  cursor: pointer;
+}
+#add-review-btn:hover, #submit-review:hover {
+  background: #181818;
+  color: #ffffff;
+}
+#review-form {
+  display: none;
+  margin-top: 20px;
+}
+#review-form input, #review-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/*** Reviews Ende ***/
+
+/*** Damage Report Start ***/
+#damage-report-section {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 30px 0;
+}
+
+#damage-report-section .damage-report-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#damage-report-section h2 {
+  text-align: center;
+  color: #333;
+}
+
+#damage-report-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+#damage-report-section label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+#damage-report-section input,
+#damage-report-section select,
+#damage-report-section textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#damage-report-section textarea {
+  resize: vertical;
+}
+
+#damage-report-section .submit-btn {
+  background-color: transparent;
+  color: #181818;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #181818;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#damage-report-section .submit-btn:hover {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+#damage-report-section .submit-btn:active {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+#reports-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.report-item {
+  background-color: #f9f9f9 !important;
+  border-left: 5px solid #b14242 !important;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.report-item h4 {
+  margin-top: 0;
+}
+
+.report-item p {
+  margin: 5px 0;
+}
+
+.report-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+#reports-container p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#reports-container p.success-message {
+  color: #09dd09;
+  font-weight: bold;
+}
+
+
+/*** Damage Report Ende ***/
+
+
+/************** Damage Banner Section Start **************/
+#banner-damage-section {
+  background-color: #b14242;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+#banner-damage-section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+}
+
+
+#banner-damage-section-text {
+  color: #ffffff;
+  text-align: center;
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+#banner-damage-section-text h5 {
+  font-size: 20px;
+}
+
+#banner-damage-section .btn {
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-color: transparent; 
+  border: 2px solid white; 
+  color: white;
+  margin-top: 30px;
+}
+
+#banner-damage-section .btn:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+  border-color: white; 
+  color: white; 
+}
+
+
+#banner-damage-section-img {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+
+#banner-img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+#banner-damage-section-img:hover #banner-img {
+  transform: scale(1.05);
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  #banner-damage-section-content {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  #banner-damage-section-text {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  #banner-damage-section-img {
+      width: 100%;
+  }
+
+  #banner-img {
+      width: 100%;
+  }
+}
+/************** Danger Banner Section End **************/
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------Admin------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/************** Admin Booking Start **************/
+#admin-bookings-section {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px 0;
+}
+
+.admin-bookings-container {
+  max-width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-bookings-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #181818;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.bg-warning {
+  background-color: #ffc107;
+  color: black;
+}
+
+.bg-success {
+  background-color: #28a745;
+  color: white;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.confirm-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.badge.bg-warning {
+  background-color: orange;
+  color: white;
+}
+
+.badge.bg-success {
+  background-color: green;
+  color: white;
+}
+
+/************** Admin Booking Ende **************/
+
+
+/************** Admin Acc Start **************/
+#admin-accounts-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#admin-accounts-section h2 {
+  text-align: center;
+  color: #000000;
+}
+
+#admin-accounts-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#admin-accounts-section table th,
+#admin-accounts-section table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+  color: #000000;
+}
+
+#admin-accounts-section table th {
+  background-color: #f4f4f4;
+}
+
+#admin-accounts-section button {
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#admin-accounts-section button.edit-btn {
+  background-color: #006bdd;
+  color: #fff;
+}
+
+#admin-accounts-section button.edit-btn:hover {
+  background-color: #007bff;
+}
+
+#admin-accounts-section button.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+#admin-accounts-section button.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/************** Admin Acc Ende **************/
+
+
+
+.admin-Title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-color: #F4F4F4;
+}
+
+
+
+/************** Admin Vehicles Start**************/
+#car-listing-section {
+  position: relative;
+  margin-top: 40px;
+  background-color: #F4F4F4;
+}
+
+
+#admin-car-listing-section .car-wrap {
+  width: 100%;
+  max-width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  box-shadow: 0px 5px 12px -1px rgba(0, 0, 0, 0.06);
+  background: #e2e1e1;
+}
+
+#admin-car-listing-section .car-wrap .img {
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#admin-car-listing-section .car-wrap .text {
+  padding: 10px;
+}
+
+
+#admin-car-listing-section .car-wrap .text h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#admin-car-listing-section .car-wrap .text h2 {
+  color: black; 
+}
+
+
+#admin-car-listing-section .car-wrap .text .price {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#admin-car-listing-section .car-wrap .text .price .price-value {
+  color: #0877cc; 
+}
+
+
+#admin-car-listing-section .car-wrap .text .d-flex {
+  justify-content: space-between;
+  width: 100%; 
+}
+
+#admin-car-listing-section .car-wrap .text .d-flex .cat {
+  margin-right: auto; 
+}
+
+#admin-car-listing-section .car-wrap .text .d-flex .price {
+  margin-left: auto; 
+}
+
+
+#admin-car-listing-section .car-wrap .text p.d-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px; 
+}
+
+#admin-car-listing-section .car-wrap .text p.d-block a {
+  flex: 1; 
+  text-align: center;
+  padding: 6px 12px;
+}
+
+
+#admin-car-listing-section .btn-primary {
+  color: #fff;
+  background-color: #d8ca00;
+  border-color: #d8ca00;
+}
+
+#admin-car-listing-section .btn-primary:hover {
+  background-color: #f8e802;
+}
+
+#admin-car-listing-section .btn-secondary {
+  color: #fff;
+  background-color: #c00101;
+  border-color: #c00101;
+}
+
+#admin-car-listing-section .btn-secondary:hover {
+  background-color: #ff0000;
+}
+
+#admin-car-listing-section .addButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#admin-car-listing-section .addButton button {
+  border-radius: 5px;
+  background-color: #00ad48;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #admin-car-listing-section .car-wrap {
+      max-width: 200px;
+  }
+
+  #admin-car-listing-section .car-wrap .img {
+      height: 120px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+  }
+
+  #admin-car-listing-section .car-wrap .text {
+      padding: 8px;
+  }
+
+  
+  #admin-car-listing-section .car-wrap .text p.d-block {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  #admin-car-listing-section .col-md-3 {
+      flex: 0 0 50%;
+      max-width: 50%;
+  }
+}
+/************** Admin Vehicles Ende**************/
+
+
+/************** Admin Damage Report Start**************/
+.damage-report-container {
+  margin-top: 40px;
+}
+
+.damage-report-container .table {
+  background: #fff;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1);
+}
+
+.damage-report-container .status-select {
+  width: 150px;
+}
+
+.damage-report-container .repair-cost {
+  width: 100px;
+}
+
+.damage-report-container .btn-danger {
+  background-color: #dc3545;
+}
+
+.damage-report-container .btn-danger:hover {
+  background-color: #c82333;
+}
+/************** Admin Damage Report Ende**************/
+
+
+/*** Footer Start ***/
+.footer {
+    background: #181818;
+}
+
+.footer h6{
+    color: #ffffff;
+}
+
+.footer .footer-item a {
+    line-height: 35px;
+    color: #bebebe;
+    transition: 0.5s;
+}
+
+.footer .footer-item p {
+    line-height: 35px;
+}
+
+.footer .footer-item a:hover {
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+/*** Footer End ***/
